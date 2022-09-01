@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,50 +8,76 @@
 
     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css" />
 
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lobster|Open+Sans" />
+    <link rel="stylesheet" href="css/styles.css" />
+
     <title>The Game Library</title>
 </head>
+
 <body>
-    <header>
-        <div>
-            <h1>The Game Library</h1>
-            <h2>A better way to manage your games</h2>
+    <header class="jumbotron jumbotron-fluid">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <h1>The Game Library</h1>
+                    <h2>A better way to manage your games</h2>
+                </div>
+            </div>
         </div>
     </header>
 
-    <div>
-        <h2>Game & Review</h2>
-        <h3>your Games</h3>
-        <p>Play games you have downloaded and leave reviews for the next potential gamer!</p>
-    </div>
+    <div class="container">
+        <div class="row row-content align-items-center">
+            <div class="col-sm-4 order-sm-last col-md-3">
+                <h2 class="text-sm-right">Game & Review</h2>
+            </div>
+            <div class="col">
+                <h3>your Games</h3>
+                <p>Play games you have downloaded and leave reviews for the next potential gamer!</p>
+            </div>
+        </div>
 
-    <div>
-        <h2>Game of the week</h2>
-        <h3>Check out this game based on your searches and purchases</h3>
-        <p>These featured games will update weekly based on your searches and gaming history!</p>
-    </div>
+        <div class="row row-content align-items-center">
+            <div class="col-sm-4 order-sm-last col-md-3">
+                <h2 class="text-sm-right">Game of the week</h2>
+            </div>
+            <div class="col">
+                <h3>Check out this game based on your searches and purchases</h3>
+                <p>These featured games will update weekly based on your searches and gaming history!</p>
+            </div>
+        </div>
 
-    <div>
-        <h2>Streamers of the week</h2>
-        <h3>Find new streamers based on your gaming history</h3>
-        <p>These wonderful streamers can give you insight on potential new gaming ventures!</p>
+        <div class="row row-content align-items-center">
+            <div class="col-sm-4 col-md-3">
+                <h2 class="text-sm-right">Streamers of the week</h2>
+            </div>
+            <div class="col">
+                <h3>Find new streamers based on your gaming history</h3>
+                <p>These wonderful streamers can give you insight on potential new gaming ventures!</p>
+            </div>
+        </div>
     </div>
 
     <footer>
-        <div>
-            <h5>Links</h5>
-            <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Sites</a></li>
-                <li><a href="#">Contact</a></li>
-            </ul>
-        </div>
-        <div>
-            <h5>Social</h5>
-            <a href="http://instagram.com/">Instagram</a>
-            <a href="http://facebook.com/">Facebook</a>
-            <a href="http://twitter.com/">Twitter</a>
-            <a href="http://youtube.com/">YouTube</a>
+        <div class="container">
+            <div class="row">
+                <div class="col-4 col-sm-2 offset-1">
+                    <h5>Links</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Sites</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="col-6 col-sm-5">
+                    <h5>Social</h5>
+                    <a href="http://instagram.com/">Instagram</a>
+                    <a href="http://facebook.com/">Facebook</a>
+                    <a href="http://twitter.com/">Twitter</a>
+                    <a href="http://youtube.com/">YouTube</a>
+                </div>
+            </div>
         </div>
     </footer>
 
@@ -58,4 +85,5 @@
     <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
     <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
 </body>
+
 </html>
