@@ -16,6 +16,7 @@
 
 <body>
     <header class="jumbotron jumbotron-fluid">
+        </nav>
         <div class="container">
             <div class="row">
                 <div class="col">
@@ -25,35 +26,45 @@
             </div>
         </div>
     </header>
-
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark sticky-top">
+        <ul class="navbar-nav">
+            <li class="nav-item active"><a class="nav-link" href="#">Home</a></li>
+            <li class="nav-item"><a class="nav-link" href="browse.html">Browse</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">Streams</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
+        </ul>
+    </nav>
     <div class="container">
         <div class="row row-content align-items-center">
-            <div class="col-sm-4 order-sm-last col-md-3">
-                <h2 class="text-sm-right">Game & Review</h2>
+            <div class="col-sm-4 col-md-3">
+                <h2>Game & Review</h2>
             </div>
-            <div class="col">
-                <h3>your Games</h3>
-                <p>Play games you have downloaded and leave reviews for the next potential gamer!</p>
-            </div>
-        </div>
-
-        <div class="row row-content align-items-center">
-            <div class="col-sm-4 order-sm-last col-md-3">
-                <h2 class="text-sm-right">Game of the week</h2>
-            </div>
-            <div class="col">
-                <h3>Check out this game based on your searches and purchases</h3>
-                <p>These featured games will update weekly based on your searches and gaming history!</p>
+            <div class="col order-sm-last">
+                <h3 class="text-sm-right">your Games</h3>
+                <p class="text-sm-right">Play games you have downloaded and leave reviews for the next potential gamer!
+                </p>
             </div>
         </div>
 
         <div class="row row-content align-items-center">
             <div class="col-sm-4 col-md-3">
-                <h2 class="text-sm-right">Streamers of the week</h2>
+                <h2>Game of the week</h2>
             </div>
-            <div class="col">
-                <h3>Find new streamers based on your gaming history</h3>
-                <p>These wonderful streamers can give you insight on potential new gaming ventures!</p>
+            <div class="col order-sm-last">
+                <h3 class="text-sm-right">Check out this game based on your searches and purchases</h3>
+                <p class="text-sm-right">These featured games will update weekly based on your searches and gaming
+                    history!</p>
+            </div>
+        </div>
+
+        <div class="row row-content align-items-center" id="stream">
+            <div class="col-sm-4 col-md-3">
+                <h2>Streamers of the week</h2>
+            </div>
+            <div class="col order-sm-last">
+                <h3 class="text-sm-right">Find new streamers based on your gaming history</h3>
+                <p class="text-sm-right">These wonderful streamers can give you insight on potential new gaming
+                    ventures!</p>
             </div>
         </div>
     </div>
@@ -72,10 +83,12 @@
                 </div>
                 <div class="col-6 col-sm-5">
                     <h5>Social</h5>
-                    <a href="http://instagram.com/">Instagram</a>
-                    <a href="http://facebook.com/">Facebook</a>
-                    <a href="http://twitter.com/">Twitter</a>
-                    <a href="http://youtube.com/">YouTube</a>
+                    <ul class="list-unstyled">
+                        <li><a href="http://instagram.com/">Instagram</a></li>
+                        <li><a href="http://facebook.com/">Facebook</a></li>
+                        <li><a href="http://twitter.com/">Twitter</a></li>
+                        <li><a href="http://youtube.com/">YouTube</a></li>
+                    </ul>
                 </div>
             </div>
         </div>

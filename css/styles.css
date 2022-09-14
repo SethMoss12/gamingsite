@@ -27,14 +27,20 @@ header h2 {
 footer {
     background-image: linear-gradient(#A8A9AD, black);
     padding: 20px 0;
+    padding-left: 550px;
 }
 
 .jumbotron {
     background-image: linear-gradient(to right, white, #A8A9AD, black);
+    margin: 0;
 }
 
 .row-content {
     padding: 50px 0;
     border-bottom: 1px ridge;
     min-height: 200px;
+}
+
+#stream {
+    border-bottom: none;
 }
