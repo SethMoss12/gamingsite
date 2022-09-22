@@ -44,3 +44,13 @@ footer {
 #stream {
     border-bottom: none;
 }
+
+.pgetlt {
+    text-align: center;
+}
+
+img {
+    margin: auto;
+    height: 900px;
+    width: 900px;
+}

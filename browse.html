@@ -11,7 +11,7 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lobster|Open+Sans" />
     <link rel="stylesheet" href="css/styles.css" />
 
-    <title>The Game Library</title>
+    <title>Browse games</title>
 </head>
 
 <body>
@@ -27,7 +27,6 @@
         </div>
     </header>
 
-
     <nav class="navbar navbar-expand-sm navbar-dark bg-dark sticky-top">
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
             aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -35,8 +34,8 @@
         </button>
         <div class="collapse navbar-collapse justify-content-center" id="navbarSupportedContent">
             <ul class="navbar-nav">
-                <li class="nav-item active"><a class="nav-link" href="#">Home</a></li>
-                <li class="nav-item"><a class="nav-link" href="browse.html">Browse</a></li>
+                <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                <li class="nav-item active"><a class="nav-link" href="#">Browse</a></li>
                 <li class="nav-item"><a class="nav-link" href="#">Streams</a></li>
                 <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
             </ul>
@@ -44,38 +43,44 @@
     </nav>
 
     <div class="container">
-        <div class="row row-content align-items-center">
-            <div class="col-sm-4 col-md-3">
-                <h2>Game & Review</h2>
-            </div>
-            <div class="col order-sm-last">
-                <h3 class="text-sm-right">your Games</h3>
-                <p class="text-sm-right">Play games you have downloaded and leave reviews for the next potential gamer!
-                </p>
+        <div class="row">
+            <div class="col">
+                <ol class="breadcrumb bg-dark">
+                    <li class="breadcrumb-item ml-auto"><a href="index.html">Home</a></li>
+                    <li class="breadcrumb-item active mr-auto">Browse</li>
+                </ol>
             </div>
         </div>
+    </div>
 
-        <div class="row row-content align-items-center">
-            <div class="col-sm-4 col-md-3">
-                <h2>Game of the week</h2>
-            </div>
-            <div class="col order-sm-last">
-                <h3 class="text-sm-right">Check out this game based on your searches and purchases</h3>
-                <p class="text-sm-right">These featured games will update weekly based on your searches and gaming
-                    history!</p>
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <h2 class="pgetlt mb-5">Browse games here based on your search history!</h2>
             </div>
         </div>
+    </div>
 
-        <div class="row row-content align-items-center" id="stream">
-            <div class="col-sm-4 col-md-3">
-                <h2>Streamers of the week</h2>
+    <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img class="d-block" src="images/gowrnrk.jpg" alt="God of war ragnarok">
             </div>
-            <div class="col order-sm-last">
-                <h3 class="text-sm-right">Find new streamers based on your gaming history</h3>
-                <p class="text-sm-right">These wonderful streamers can give you insight on potential new gaming
-                    ventures!</p>
+            <div class="carousel-item">
+                <img class="d-block" src="images/eldnrng.jpg" alt="Elden ring">
+            </div>
+            <div class="carousel-item">
+                <img class="d-block" src="images/bldbrne.jpg" alt="BloodBorne">
             </div>
         </div>
+        <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </a>
     </div>
 
     <footer>
@@ -106,6 +111,7 @@
     <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
     <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
     <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+
 </body>
 
 </html>
