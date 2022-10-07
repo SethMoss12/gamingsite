@@ -86,3 +86,20 @@ img {
   .btn:hover {
     color: #888B8D;
   }
+
+
+  .srchbr{
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    border-radius: 0%;
+    background: none;
+  }
+
+  .srchbr:focus {
+    background: none;
+    outline: none;
+    box-shadow: none;
+    color: white;
+  }
+
